@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- 1. Redirección automática (espera 0 segundos y va a la URL) -->
+    <meta http-equiv="refresh" content="0; url=https://tu-pagina-destino.com">
+    <link rel="canonical" href="https://tu-pagina-destino.com">
+
+    <!-- 2. Metadatos para Redes Sociales (Open Graph / WhatsApp / Facebook) -->
+    <title>Título de tu Página</title>
+    <meta name="description" content="Descripción breve que aparecerá en la vista previa.">
+    <meta property="og:title" content="Título de tu Página">
+    <meta property="og:description" content="Descripción breve que aparecerá en la vista previa.">
+    <meta property="og:image" content="https://tu-usuario.github.io">
+    <meta property="og:url" content="https://tu-usuario.github.io">
+    <meta property="og:type" content="website">
+
+    <!-- 3. Metadatos para Twitter/X -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Título de tu Página">
+    <meta name="twitter:description" content="Descripción breve para Twitter.">
+    <meta name="twitter:image" content="https://tu-usuario.github.io">
+
+    <!-- Script de respaldo por si el meta refresh falla -->
+    <script type="text/javascript">
+        window.location.href = "https://tu-pagina-destino.com"
+    </script>
+</head>
+<body>
+    <p>Si no eres redirigido automáticamente, <a href="https://tu-pagina-destino.com">haz clic aquí</a>.</p>
+</body>
+</html>
